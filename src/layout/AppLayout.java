@@ -37,7 +37,9 @@ public class AppLayout extends Application{
 //		raiz = new TesteAnchorPane();
 //		raiz = new TesteBorderPane();
 //		raiz = new TesteFlowPane();
-		raiz = new TesteGridePlane();
+//		raiz = new TesteGridePlane();
+//		raiz = new TesteStackPane();
+		raiz = new TesteTilePane();
 		
 		Scene principal = new Scene(raiz,800,600);
 		primaryStage.setScene(principal);
